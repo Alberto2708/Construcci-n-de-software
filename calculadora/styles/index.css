@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.buttons {
+    width: 55px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FDFEFE;
+
+}
+
+.buttons-zero {
+    width: 124px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    background-color: #FDFEFE;
+    cursor: pointer;
+}
+.buttons-AC {
+    width: 124px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    background-color: #D35400 ;
+    cursor: pointer;
+}
+
+.button-separation {
+    padding: 5px;
+}
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.button-container-result {
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    width: 270px
+}
+
+.layout-calculator {
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    background-color: #17202A  ;
+}
+
+.layout-screen {
+    width: 100%;
+    height: 50px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #FDFEFE;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
