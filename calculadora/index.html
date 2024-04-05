@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator 001</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+    <div class="layout-calculator">
+        <div class="button-separation">
+            <div class="layout-screen">
+                <span id="operand1Display"></span>
+            </div>
+        </div>
+        <div class="button-container">
+            <div class ="button-separation">
+                <div onclick="clearCalc()" class="buttons-AC">AC</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="previousResults()" class="buttons">h</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressOperation('^')" class="buttons">^</div>
+            </div>
+        </div>
+<!-- buttons  7,8,9, x-->
+        <div class="button-container">
+            <div class="button-separation">
+                <div onclick="pressButton('7')" class="buttons">7</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressButton('8')" class="buttons">8</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressButton('9')" class="buttons">9</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressOperation('x')" class="buttons">x</div>
+            </div>
+        </div>
+        <!-- buttons 4,5,6,- -->
+        <div class="button-container">
+            <div class="button-separation">
+                <div onclick="pressButton('4')" class="buttons">4</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressButton('5')" class="buttons">5</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressButton('6')" class="buttons">6</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressOperation('-')" class="buttons">-</div>
+            </div>
+        </div>
+        <!-- buttons 1,2,3,+ -->
+        <div class="button-container">
+            <div class="button-separation">
+                <div onclick="pressButton('1')" class="buttons">1</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressButton('2')" class="buttons">2</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressButton('3')" class="buttons">3</div>
+            </div>
+            <div class="button-separation">
+                <div onclick="pressOperation('+')" class="buttons">+</div>
+            </div>
+        </div>
+        <!-- buttons 0,.,= -->
+        <div class="button-container">
+            <div class="button-container-result">
+                <div class="button-separation">
+                    <div onclick="pressButton('0')" class="buttons-zero">0</div>
+                </div>
+                <div class="button-separation">
+                    <div onclick="pressOperation('.')" class="buttons">.</div>
+                </div>
+                <div class="button-separation">
+                    <div class="buttons" onclick="calculateResult()">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
