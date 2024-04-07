@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:powderblue;">
+
+    <h1>Documento Scribing</h1>
+    <p>Carlos Alberto Mentado Reyes <br />
+    A01276065</p>
+
+    <ol>
+        <li><a href="#html">HTML</a>
+            <ol>
+                <li><a href="#tbht">Text Body, Head & Title</a></li>
+
+                <li><a href="#headings">Headings</a></li>
+
+                <li><a href="#pb">Paragraphs & Bold</a></li>
+
+                <li><a href="#lbhr">Line Breaks & Horizontal Rules</a></li>
+                
+                <li><a href="#lists">Lists</a>
+                    <ol>
+                        <li><a href="#ul">Unordered lists</a></li>
+
+                        <li><a href="#ol">Ordered lists</a></li>
+
+                        <li><a href="#nl">Nested lists</a></li>
+                    </ol>
+                </li>
+
+                <li><a href="#links">Links</a></li>
+
+                <li><a href="#images">Images</a></li>
+            </ol>
+        </li>
+<p></p>
+        <li><a href="#js"> Javascript</a>
+            <ol>
+                <li><a href="#tov">Types of variables</a>
+                    <ol>
+                        <li><a href="#string">Strings</a></li>
+                        <li><a href="#num">Number</a></li>
+                        <li><a href="#bigint">BigInt</a></li>
+                        <li><a href="#bool">Boolean</a></li>
+                        <li><a href="#undefined">Undefined</a></li>
+                        <li><a href="#null">Null</a></li>
+                        <li><a href="#symbol">Symbol</a></li>
+                        <li><a href="#object">Object</a></li>
+                    </ol>
+                </li>
+                <li><a href="#loop">Ciclos</a>
+                    <ol>
+                        <li><a href="#while">Ciclo While</a></li>
+                        <li><a href="#dowhile">Ciclo Do While</a></li>
+                        <li><a href="#for">Ciclo For</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <li><a href="#up">Unary Opertors</a></li>
+            <li><a href="#bv">Boolean Values</a></li>
+            <li><a href="#lp">Logical Operators</a>
+                <ol>
+                    <li><a href="#shlo">Short-circuiting of logical operators</a></li>
+                </ol>
+            </li>
+            <li><a href="#if">Intro Functions</a></li>
+        </li>
+
+    </ol>
+<p><br /></p>
+
+<h2 id="html">HTML</h2>
+
+<h3 id="tbht">Text, Body, Head & Title</h3>
+<p>
+    You met the " body" element in the first example we created. Everything inside this element is shown inside the main browser window. <br />
+    Before the "body" element you will often see a "head" element. This contains information about the page (rather than <br />
+    information that is shown within the main part of the browser <br />
+    window that is highlighted in blue on the opposite page). <br />
+    You will usually find a "title" element inside the "head" <br />
+    element.
+        
+    The contents of the "title" element are either shown in the <br />
+    top of the browser, above where you usually type in the URL of the page you want to visit, or on the tab for that page (if your browser uses tabs to allow you to view multiple pages at the same time). <br />   
+    <img src="tbht.jpg" width="300" height="300" />
+</p>
+
+<h3 id="headings">Headings</h3>
+<p>
+    HTML has six "levels" of headings: <br/> <br />
+    "h1" Is used for main headings <br />
+    "h2" is used for subheadings <br />
+    If there are further sections under the subheadings then the <br />
+    "h3" element is used, and so on... <br/>
+    <img src="heading.jpg" width="300" height="150" />
+</p>
+
+<h3 id="pb">Paragraphs & bold</h3>
+<p>
+To create a paragraph, surround the words that make up the paragraph with an opening "p" <br />
+tag and closing "/p" tag. <br />
+<img src="paragraph.png" width="300" height="150" />
+</p>
+<p>
+    By enclosing words in the tags "b" and "/b" we can make characters appear <b>bold.</b> <br />
+    <img src="bold.jpg" width="300" height="100" />
+</p>
+
+<h3 id="lbhr">Line Breaks & Horizontal Rules</h3>
+<p>
+If you wanted <br />
+to add a line break inside the <br />
+middle of a paragraph you can <br />
+use the line break tag "br /" <br />
+<img src="lb.jpg" width="300" height="200" />
+</p>
+
+<p>
+    To create a break between <br />
+    themes — such as a change of <br />
+    topic in a book or a new scene <br />
+    in a play — you can add a horizontal rule between sections using the tag. <br/>
+    <img src="hr.png" width="300" height="150" />
+
+</p>
+
+<h3 id="lists">Lists</h3>
+<p>
+    HTML provides us with three different types:
+    <ul>
+        <li><b>Ordered lists</b> are lists where each item in the list is numbered. <br />
+            For example, the list might be a set of steps for a recipe that must be performed in order, <br />
+            or a legal contract where each point needs to be identified by a section number.
+        </li>
+        <li><b>Unordered lists</b> are lists that begin with a bullet point <br />
+            (rather than characters that indicate order).
+        </li>
+        <li><b>Definition lists</b> are made up of a set of terms along with the definitions for each of those terms.
+        </li>
+    </ul>
+    <h4 id="ul">Unordered Lists</h4>
+    <p>
+        The unordered list is created with the "ul" element. <br />
+        Each item in the list is placed between an opening "li" tag and a closing "/li" <br />
+        tag. (The li stands for list item.) <br />
+        <img src="ol.png" width="300" height="150" />
+    </p>
+
+    <h4 id="ol">Ordered Lists</h4>
+    <p>
+        The ordered list "ol" is created with the element. <br />
+        Each item in the list is placed between an opening "li" tag and a closing "/li" <br />
+        tag. (The li stands for list item.) <br />
+        <img src="ul.png" width="300" height="150" />
+            
+    </p>
+
+    <h4 id="nl">Nested Lists</h4>
+    <p>
+        The unordered list is created with the "ul" element. <br />
+        Each item in the list is placed between an opening "li" tag and a closing "/li" <br />
+        tag. (The li stands for list item.) <br />
+        <img src="nl.png" width="270" height="150" />
+            
+    </p>
+</p>
+
+<h3 id="links">Links</h3>
+<p>
+    Links are the defining feature of the web because they allow <br />
+    you to move from one web page to another — enabling the very idea of browsing or surfing.<br /> <br />
+    You will commonly come across the following types of links:
+    <ul>
+        <li>Links from one website to another</li>
+        <li>Links from one page to another on the same website </li>
+        <li>Links from one part of a web page to another part of the same page  </li>
+        <li>Links that open in a new browser window </li>
+        <li>Links that start up your email program and address a new email to someone</li>
+    </ul>
+    Links are created using the "a" element. Users can click on anything between the opening "a" tag and the closing </a> tag. <br />
+    You specify which page you want to link to using the href attribute
+    <br />
+    <img src="links1.png" width="300" height="150" /> <br />
+
+    <br />When you link to a different website, the value of the href attribute will be the full web address for the site,<br />
+    which is known as an <b>absolute URL.</b> <br /><br />
+
+    <b>ABSOLUTE URLS</b> <br />
+    An absolute URL starts with the domain name for that site, and can be followed by the path to a specific page. <br /><br />
+
+    When you are linking to other pages within the same site, you do not need to specify the domain name in the URL. You can use a shorthand known as a relative URL. <br /> <br />
+    <img src="links2.png" width="300" height="150" /> <br />
+    <b>RELATIVE URLS</b> <br />
+    When linking to other pages within the same site, you can use relative URLs. These are like a shorthand version of absolute URLs because you do not need to specify the domain name<br /><br />
+    <img src="links3.png" width="350" height="250" /> <br />
+
+    Before you can link to a specific part of a page, you need to identify the points in the page that the link will go to. <br />
+    You do this using the id attribute (which can be used on every HTML element). <br />
+
+    You can see that the "h1" and "/h1" elements in this example have been given id attributes that identify those sections of the page. <br />
+
+    The value of the id attribute should start with a letter or an underscore (not a number or any other character) and, on a single page, no two id attributes should have the same value. <br />
+    <img src="links4.png" width="300" height="300" />
+
+</p>
+
+<h3 id="images">Images</h3>
+<p>
+    You will also often see an "img" element use two other attributes that specify its size: height This specifies the height of the image in pixels.<br/>
+    width This specifies the width of the image in pixels. <br />
+    <img src="images.png" width="300" height="350" />
+
+
+</p>
+
+<hr />
+<h2 id="js">Javascript</h2>
+
+<h3 id="tov">Types of variables</h3>
+
+<p>Hey tres maneras de definir variables, <i>const, let y var</i> aquí las diferencias de cada una<br/>
+    <b>Var</b> fue la primera manera de declarar variables, estas variables se pueden declarar varias veces en el código<br/>
+    lo que puede causar errores en el código <br /><br />
+    <b>Let</b> es otra forma de declarar variables, en este caso las variables se declaran por bloques de corchetes {}<br />
+    se pueden modificar pero no volver a declarar dentro de un mismo bloque y se pueden declarar fuera de un bloque y dentro de otro<br/><br/>
+    <b>Const</b> Al igual que <b>let</b> const es declarada por bloques, solo que estas no se pueden volver a declarar o modificar
+
+
+
+
+</p>
+<h4 id="string">Strings</h4>
+<p>El tipo de dato string se utiliza para representar y manipular una secuencia de caracteres<br />
+Son útiles para representar lo que podría ser texto <br />
+Un String se identifica como una cadena de caracteres y por lo tanto se puede manipular como una lista<br />
+Hay operadores de concatenación como + y +=, se puede verificar la existencia de subcadenas o extraer subcadenas.
+</p>
+
+<h4 id="num">Number</h4>
+<p>
+A diferencia de otros lenguajes de programación, Javascript no tiene diferentes variables para diferentes números <br />
+números decimales y enteros se guardan de la misma forma siguiendo el estándar IEEE 754.
+</p>
+
+<h4 id="bigint">BigInt</h4>
+<p>
+    Este tipo de variable sirve para guardar numeros muy grandes que el tipo de dato Number no puede guardar <br />
+    Se pueden declarar poniendo una "n" al final del número o mandando a llamar la función BigInt().
+</p>
+
+<h4 id="bool">Boolean</h4>
+<p>
+En boolean primitivo se almacenan datos booleanos, es decir "verdadero" o "falso" <br />
+En un objeto boolean es similar pero se declara usando Boolean() y si dentro del paréntesis se pone <br />
+0, -0, null, false, NaN, undefined o una cadena vacía "", se iniciará el valor del booleano como falso <br />
+Los demás valores se identifican como verdadero
+</p>
+
+<h4 id="undefined">Undefined</h4>
+<p>
+    Este tipo de dato se usa para expresar que una variable no está definida, esto significa que <br />
+    esa variable no contiene un valor manipulable.
+</p>
+
+<h4 id="null">Null</h4>
+<p>
+    Es uno de los llamados "literal" de Javascript, se refiere a un valor vacío en una variable <br />
+    A diferencia de "Undefined", "Null" es un valor deliberadamente vacío.
+</p>
+
+<h4 id="symbol">Symbol</h4>
+<p>
+    Este tipo de dato funciona de la siguiente manera: <br />
+    Al llamar a la función symbol() y poner una string como parámetro, la función devuelve una llave obtenida <br />
+    Se mandará una llave única aunque se use el mismo string 
+</p>
+
+<h4 id="object">Object</h4>
+<p>
+    Los objetos se pueden denominar como variables que contienen diferentes tipos de datos <br />
+    datos que se denominan atributos <br />
+    Mientras que una variable se declara así: let car = "Fiat"; <br />
+    Un objeto se declara de esta forma: const car = {type:"Fiat", model:"500", color:"White"}
+</p>
+</body>
+
+<h3 id="loop">Ciclos</h3>
+
+<p>
+    Se definen como una manera sencilla de mandar instrucciones repetidas <br />
+    Un ejemplo sencillo es en una situación en la que quieres avanzar 5 pasos <br />
+    no escribes en código avanzar 5 pasos, escribes avanzar un paso y lo repites 5 veces
+</p>
+
+<h4 id="while">Ciclo While</h4>
+<p>
+    Las instrucciones dentro de un ciclo While se repetirán siempre y cuando una condición escrita se cumpla <br />
+    en cuanto la condición del ciclo se deje de cumplir, el ciclo parará <br />
+</p>
+
+<h4 id="dowhile"> Ciclo do While</h4>
+<p>
+    El ciclo <b>do While</b> funciona de la misma manera que un ciclo While, se repetirán las instrucciones <br />
+    hasta que se deje de cumplir una condición, la diferencia es que en un ciclo do While primero se ejecutan <br />
+    las instrucciones y después se verifica la condición
+</p>
+<h4 id="for">Ciclo For</h4>
+<p>
+    Un ciclo <b>For</b> es declarado con tres expresiones, una expresión inicial, una expresión condicional <br />
+    y una expresión de actualización, esto sirve para hacer ciclos controlados. <br /> <br />
+    Haciendo un ciclo for se puede decidir la cantidad de iteraciones que hará el ciclo.
+</p>
+
+<h3 id="up">Unary Operators</h3>
+<p>
+One example is the typeof operator, which produces a string value naming the type of the value you give it. <br />
+console.log(typeof 4.5) <br />
+// → number <br />
+console.log(typeof "x") <br />
+// → string <br />
+</p>
+
+<h3 id="bv">Boolean Values</h3>
+<p>
+It is often useful to have a value that distinguishes between only two possibilities, <br />
+like “yes” and “no” or “on” and “off”. For this purpose, JavaScript has a Boolean type, <br />
+which has just two values, true and false, written as those words. <br />
+    
+<b>Comparison</b> <br />
+console.log(3 > 2) <br />
+// → true <br />
+console.log(3 < 2) <br />
+// → false <br />
+<br />
+console.log("Garnet" != "Ruby") <br />
+// → true <br />
+console.log("Pearl" == "Amethyst") <br />
+// → false <br />
+</p>
+
+<h3 id="lp">Logical Operators</h3>
+<p>
+JavaScript supports three logical operators: and, or, and not. These can be used to “reason” about Booleans. <br />
+<br />
+The && operator represents logical and. It is a binary operator, and its result is true only if both the values given to it are true. <br />
+<br />
+console.log(true && false)<br />
+// → false<br />
+console.log(true && true)<br />
+// → true<br />
+<br />
+The || operator denotes logical or. It produces true if either of the values given to it is true.<br />
+<br />
+console.log(false || true)<br />
+// → true<br />
+console.log(false || false)<br />
+// → false<br />
+Not is written as an exclamation mark (!). It is a unary operator that flips the value given to it—!true produces false and !false gives true.<br />
+<br />
+The last logical operator we will look at is not unary, not binary, but ternary, operating on three values. It is written with a question mark and a colon, like this:<br />
+console.log(true ? 1 : 2);<br />
+// → 1<br />
+console.log(false ? 1 : 2);<br />
+// → 2<br />
+<br />
+</p>
+
+<h4 id="shlo">Short-circuiting of logical Operators</h4>
+<p>
+The logical operators && and || handle values of different types in a peculiar way.<br />
+They will convert the value on their left side to Boolean type in order to decide what to do, but depending on the operator and the result of that conversion, they will return either the original left-hand value or the right-hand value.<br />
+<br />
+console.log(null || "user")<br />
+// → user<br />
+console.log("Agnes" || "user")<br />
+// → Agnes<br />
+<br />
+The rules for converting strings and numbers to Boolean values state that 0, NaN, and the empty string ("") count as false, while all the other values count as true.<br />
+<br />
+The ?? operator resembles ||, but returns the value on the right only if the one on the left is null or undefined, not if it is some other value that can be converted to false. Often, this is preferable to the behavior of ||.<br />
+<br />
+console.log(0 || 100);<br />
+// → 100<br />
+console.log(0 ?? 100);<br />
+// → 0<br />
+console.log(null ?? 100);<br />
+// → 100<br />
+<br />
+</p>
+
+<h3 id="if">Intro Functions</h3>
+<p>
+Functions are one of the most central tools in JavaScript programming. The concept of wrapping a piece of program in a value has many uses. It gives us a way to structure larger programs, to reduce repetition, <br />
+to associate names with subprograms, and to isolate these subprograms from each other.<br />
+<br />
+<br />
+const square = function(x) {<br />
+  return x * x;<br />
+};<br />
+
+console.log(square(12));<br />
+// → 144<br />
+<br />
+</p>
+<style></style>
+</style>
+</html>
