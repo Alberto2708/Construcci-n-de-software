@@ -1,0 +1,138 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layout-game {
+  width: 350px;
+  height: 500px;
+  border: solid 5px black;
+  border-radius: 5% 5% 17% 5%;
+}
+
+.screen-layout {
+  width: 305px;
+  height: 200px;
+  border: solid 5px black;
+  border-radius: 5%;
+  background-color: #8B9F5C;
+}
+
+.container-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 4% 0 2%;
+  height: 262px;
+}
+
+.container-action {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-select {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 73%;
+  margin-left: 9%;
+}
+
+.container-select-btn {
+  transform: rotate(-35deg);
+}
+
+.container-start {
+  transform: rotate(-35deg);
+}
+
+.container-pad {
+  width: 100px;
+  height: 100px;
+}
+
+.button-b-container {
+  padding-top: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-a-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-a {
+  width: 40px;
+  height: 40px;
+  background-color: #74041e;
+  border-radius: 100%;
+}
+.button-b {
+  width: 40px;
+  height: 40px;
+  background-color: #74041e;
+  border-radius: 100%;
+}
+
+.btn-start {
+  width: 22px;
+  height: 10px;
+  background-color: #837d8e;
+}
+
+.btn-select {
+  width: 22px;
+  height: 10px;
+  background-color: #837d8e;
+}
+
+.container-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-up-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-up {
+  width: 25px;
+  height: 40px;
+  background-color: #020204;
+}
+
+.btn-down {
+  width: 25px;
+  height: 40px;
+  background-color: #020204;
+}
+
+.btn-right {
+  width: 25px;
+  height: 32px;
+  background-color: #020204;
+}
+.btn-left {
+  width: 25px;
+  height: 32px;
+  background-color: #020204;
+}
